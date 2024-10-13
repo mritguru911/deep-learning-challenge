@@ -16,27 +16,27 @@ The ultimate objective is to achieve predictive accuracy exceeding 75%. Once the
 ### Data Preprocessing
 
 1. What variable(s) are the target(s) for your model?
-- The target variable for the model is `IS_SUCCESSFUL`, a binary variable indicating the charity project was successful (`1`) or not (`0`).
+ The target variable for the model is `IS_SUCCESSFUL`, a binary variable indicating the charity project was successful (`1`) or not (`0`).
 
 2. What variable(s) are the features for your model?
-- All columns, with the exception of EIN, NAME, and IS_SUCCESSFUL, function as features for the model. These encompass a range of attributes related to the charity projects and the organizations that support them.
+ All columns, with the exception of EIN, NAME, and IS_SUCCESSFUL, function as features for the model. These encompass a range of attributes related to the charity projects and the organizations that support them.
 
 3. What variable(s) should be removed from the input data because they are neither targets nor features
-- The EIN and NAME fields were excluded from the dataset as they are identifiers that do not aid in predicting project success. They lack relevant information that would enhance the model's predictive capabilities.
+ The EIN and NAME fields were excluded from the dataset as they are identifiers that do not aid in predicting project success. They lack relevant information that would enhance the model's predictive capabilities.
 
 
 ### Compiling, Training, and Evaluating the Model
 
 1. How many neurons, layers, and activation functions did you select for your neural network model, and why? 
 The final neural network architecture features three hidden layers containing 128, 64, and 32 neurons, respectively.
-- Initially, the model began with a simpler design, utilizing fewer neurons and layers. However, to better capture complex patterns in the data, the architecture was enhanced, resulting in improved performance.
+ Initially, the model began with a simpler design, utilizing fewer neurons and layers. However, to better capture complex patterns in the data, the architecture was enhanced, resulting in improved performance.
 
 2. Were you able to achieve the target model performance?
 The target was to achieve an accuracy of at least 75%. Unfortunately, after multiple optimization attempts, the final model achieved an accuracy of 73% on the test dataset.
 
 3. What steps did you take in your attempts to increase model performance?
 Expanded Neurons and Layers: Initially, the model was quite basic, but it evolved into a more sophisticated structure by incorporating additional neurons and layers. This enhancement enabled the model to identify more intricate patterns within the data.
-- Refined Activation Functions: The ReLU activation function was selected for the hidden layers due to its effectiveness in deep learning applications.
+ Refined Activation Functions: The ReLU activation function was selected for the hidden layers due to its effectiveness in deep learning applications.
 
 ## Summary
 

@@ -45,10 +45,10 @@ The final deep learning model reached an accuracy of 73%, which is below the des
 
 To enhance the model's performance and potentially achieve or exceed the target accuracy of 75%, consider implementing the following fine-tuning strategies:
 
-- Increase Neurons per Layer
+- Increase Neurons per Layer:
 Augmenting the number of neurons in each layer may improve the model's capacity to capture complex relationships present in the dataset.
 
-- Test Different Activation Functions
+- Test Different Activation Functions:
 Explore various activation functions, such as Leaky ReLU or ELU, as they might yield better results than the standard ReLU in specific contexts.
 
 By applying these strategies, you can enhance the model's accuracy, making it a more effective tool for predicting the success of charity projects and aiding Alphabet Soup in its funding decisions.
